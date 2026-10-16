@@ -1,0 +1,5 @@
+# Python 3.10 / 3.11 / 3.12 (evitar 3.13+)
+# mediapipe fijado: las versiones nuevas ya no incluyen la API mp.solutions que usa este proyecto
+numpy>=1.23,<2
+opencv-python>=4.6,<4.11
+mediapipe==0.10.14
